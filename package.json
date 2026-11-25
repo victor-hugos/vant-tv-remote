@@ -1,0 +1,15 @@
+{
+  "name": "vant-tv-remote",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Controle remoto local para TV Samsung da VANT",
+  "scripts": {
+    "start": "node src/server.js",
+    "test:remote": "node scripts/test-remote.js",
+    "test:keys": "node scripts/test-keys.js",
+    "check": "node --check src/server.js && node --check src/samsung/client.js && node --check public/js/remote.js"
+  },
+  "dependencies": {
+    "ws": "^8.22.0"
+  }
+}

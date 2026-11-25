@@ -1,0 +1,15 @@
+{
+  "name": "VANT Remote",
+  "short_name": "Remote",
+  "description": "Controle remoto local para TV Samsung",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#050505",
+  "theme_color": "#050505",
+  "icons": [
+    { "src": "/icons/vant-logo-official.png", "sizes": "1024x1024", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}
